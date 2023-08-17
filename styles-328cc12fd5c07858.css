@@ -1,0 +1,46 @@
+/* Generic */
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+/* Grid */
+
+.grid {
+    user-select: none;
+}
+
+.grid-row {
+    display: flex;
+}
+
+.grid-cell {
+    width:  64px;
+    height: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #DDDDDD;
+}
+
+/* Pallete */
+
+.pallete {
+    display: flex;
+    margin: 32px;
+}
+
+.pallete-cell {
+    margin: 2px;
+}
+
+.pallete-selected-cell {
+    border: 2px solid black;
+}
